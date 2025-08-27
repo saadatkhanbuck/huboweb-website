@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../components/hero";
-import ContentWritingService from "@/app/components/contentwritingservice";
+import ContentWritingService from "../../components/contentwritingservice";
 
 export default function ContentWriting() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../components/hero";
-import WordpressServices from "@/app/components/wordpressservices";
+import WordpressServices from "../../components/wordpressservices";
 
 export default function WordPress() {
   return (

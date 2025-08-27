@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../components/hero";
-import LeadGenerationServices from "@/app/components/leadgenerationservices";
+import LeadGenerationServices from "../../components/leadgenerationservices";
 
 export default function LeadGeneration() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../components/hero";
-import SqaAndTestingServices from "@/app/components/sqatestingservices";
+import SqaAndTestingServices from "../../components/sqatestingservices";
 
 export default function SQATesting() {
   return (

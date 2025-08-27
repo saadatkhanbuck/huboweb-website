@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../components/hero";
-import MobileAppServices from "@/app/components/mobileappservices";
+import MobileAppServices from "../../components/mobileappservices";
 
 export default function MobileAppDevelopment() {
   return (
