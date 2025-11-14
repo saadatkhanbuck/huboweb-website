@@ -7,8 +7,8 @@ import {
   Headphones,
   ShoppingCart,
   Users2,
-  ThumbsUp,
-  ShieldCheck
+  
+  
 } from "lucide-react";
 
 export default function VirtualAssistantServices() {

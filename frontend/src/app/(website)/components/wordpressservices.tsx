@@ -2,13 +2,13 @@
 
 import {
   LayoutDashboard,
-  MonitorSmartphone,
+  
   ShieldCheck,
   Rocket,
   Paintbrush2,
   ShoppingCart,
   Wrench,
-  LucideIcon
+  
 } from "lucide-react";
 
 export default function WordpressServices() {

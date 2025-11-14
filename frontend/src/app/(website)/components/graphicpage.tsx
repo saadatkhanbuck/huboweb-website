@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { CheckCircle, Star, Palette } from "lucide-react";
+import { CheckCircle, Star } from "lucide-react";
 import {
   PenTool,
   BadgePercent,
@@ -22,7 +22,7 @@ export default function GraphicPage() {
         <div className="flex flex-col md:flex-row gap-10">
           <div className="flex-1">
             <p className="text-lg text-gray-300 max-w-3xl mb-6">
-              At our software house, we don’t just design — we tell your brand’s
+              At our software house, we don&apos;t just design — we tell your brand&apos;s
               story through stunning visuals. With a team of seasoned graphic
               designers, we ensure every design is modern, brand-focused, and
               conversion-optimized.
@@ -34,7 +34,7 @@ export default function GraphicPage() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="text-white mt-1" />
-                Unlimited Revisions Until You're Satisfied
+                Unlimited Revisions Until You&apos;re Satisfied
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="text-white mt-1" />
@@ -176,7 +176,7 @@ export default function GraphicPage() {
               How many revisions are included?
             </h4>
             <p className="text-gray-300">
-              We offer unlimited revisions until you're fully satisfied with the
+              We offer unlimited revisions until you&apos;re fully satisfied with the
               final design.
             </p>
           </div>

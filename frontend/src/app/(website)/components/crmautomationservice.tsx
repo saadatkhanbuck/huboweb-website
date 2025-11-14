@@ -19,7 +19,7 @@ export default function CrmAutomationService() {
           Why CRM Automation Matters
         </h2>
         <p className="text-lg text-gray-300 max-w-5xl mb-6">
-          In today's digital landscape, manually managing customer relationships
+          In today&apos;s digital landscape, manually managing customer relationships
           is inefficient and risky. CRM Automation streamlines your workflow,
           ensures data accuracy, boosts productivity, and enhances customer
           satisfaction. Our custom CRM solutions are tailored to automate sales

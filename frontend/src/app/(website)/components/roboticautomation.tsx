@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  Bot,
   Cpu,
   Workflow,
   ShieldCheck,
@@ -9,6 +8,7 @@ import {
   HelpCircle,
   CheckCircle
 } from "lucide-react";
+import Image from "next/image";
 
 export default function RoboticAutomation() {
   return (
@@ -31,23 +31,30 @@ export default function RoboticAutomation() {
         {/* Image Section */}
         <div className="relative md:w-1/2 flex items-center justify-center">
           {/* Main Large Image */}
-          <img
+          <Image
             src="/img/robotic.webp"
             alt="RPA Main"
+            width={450}
+            height={350}
             className="w-[350px] md:w-[450px] rounded-xl shadow-2xl"
+            priority
           />
 
           {/* Small Image Top Left */}
-          <img
+          <Image
             src="/img/robotic1.webp"
             alt="RPA Small 1"
+            width={128}
+            height={128}
             className="absolute top-[-30px] left-[10%] w-24 md:w-32 rounded-lg shadow-lg rotate-[-6deg]"
           />
 
           {/* Small Image Bottom Right */}
-          <img
+          <Image
             src="/img/robotic2.jpg"
             alt="RPA Small 2"
+            width={128}
+            height={128}
             className="absolute bottom-[-30px] right-[10%] w-24 md:w-32 rounded-lg shadow-lg rotate-[8deg]"
           />
         </div>
@@ -189,7 +196,7 @@ export default function RoboticAutomation() {
       <div className="text-center space-y-4">
         <h3 className="text-3xl font-bold text-white">Ready to Automate?</h3>
         <p className="text-gray-300">
-          Let’s build powerful bots that save time and improve efficiency.
+          Let&apos;s build powerful bots that save time and improve efficiency.
           Contact us today to get started.
         </p>
        

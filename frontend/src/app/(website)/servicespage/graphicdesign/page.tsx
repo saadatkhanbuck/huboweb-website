@@ -1,8 +1,8 @@
 import React from "react";
 import Hero from "../../components/hero";
-import GraphicPage from "@/app/components/graphicpage";
+import GraphicPage from "../../components/graphicpage";
 
-export default function graphicsdesign() {
+export default function GraphicsDesign() {
   return (
     <div className="mt-10">
       <Hero

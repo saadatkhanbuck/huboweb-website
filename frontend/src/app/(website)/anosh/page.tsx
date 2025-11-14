@@ -7,14 +7,11 @@ import {
   MapPin,
   GraduationCap,
   Calendar,
-  Twitter,
   Facebook,
-  Instagram,
-  Linkedin
+  Instagram
 } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import PartnersPage from "../components/partnerspage";
 
 export default function Anosh() {
   return (
@@ -28,7 +25,6 @@ export default function Anosh() {
               Anosh Haider
             </h1>
             <div className="flex gap-4 mb-8">
-              
               <a
                 href="https://www.facebook.com/ReMeMbErr?mibextid=LQQJ4d"
                 target="_blank"
@@ -49,25 +45,20 @@ export default function Anosh() {
                   className="text-pink-500 hover:text-pink-600"
                 />
               </a>
-             
             </div>
 
             {/* Small image + Info */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-             
-
               {/* Info List with Icons */}
               <div className="grid grid-cols-1 gap-3 text-sm text-gray-200">
                 <div className="flex items-center gap-2">
                   <Cake size={18} className="text-white" /> Birthday: March 17, 1993
-                  
                 </div>
                 <div className="flex items-center gap-2">
                   <Calendar size={18} className="text-white" /> Age: 32
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone size={18} className="text-white" /> +92 322 4824998
-                  
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail size={18} className="text-white" />{" "}
@@ -122,7 +113,6 @@ export default function Anosh() {
           conferences, and writes about technology trends and startup culture.
         </p>
       </section>
-      <PartnersPage />
     </main>
   );
 }

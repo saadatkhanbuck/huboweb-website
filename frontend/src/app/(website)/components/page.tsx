@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -55,9 +56,11 @@ const ReviewCard = ({
 }) => (
   <div className="w-64 shrink-0 p-4 border rounded-xl border-gray-900 bg-gray-950/10 mx-2">
     <div className="flex items-center gap-3">
-      <img
+      <Image
         src={img}
         alt={name}
+        width={56}
+        height={56}
         className="w-14 h-14 rounded-full object-cover"
       />
       <div>

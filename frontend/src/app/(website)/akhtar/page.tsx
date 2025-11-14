@@ -7,14 +7,14 @@ import {
   MapPin,
   GraduationCap,
   Calendar,
-  Twitter,
+  
   Facebook,
   Instagram,
   Linkedin
 } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import PartnersPage from "../components/partnerspage";
+
 
 export default function akhtar() {
   return (
@@ -138,7 +138,7 @@ export default function akhtar() {
           history, and mentoring young professionals in the business field.
         </p>
       </section>
-      <PartnersPage />
+     
     </main>
   );
 }

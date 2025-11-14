@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///C:/Traviazo/huboweb-website/src/app/hero/page.tsx"],"sourcesContent":["import React from 'react'\r\nimport LogoMarquee from '../components/logomarquee'\r\n\r\nexport default function Hero () {\r\n  return (\r\n    <div>\r\n      <LogoMarquee/>\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;AACA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC,wIAAA,CAAA,UAAW;;;;;;;;;;AAGlB","debugId":null}},
-    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///C:/Traviazo/huboweb-website/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\r\nimport Hero from \"./hero/page\";\r\n\r\nexport default function Home() {\r\n  return (\r\n   <div>\r\n    <Hero/>\r\n   </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AACA;;;AAEe,SAAS;IACtB,qBACC,8OAAC;kBACA,cAAA,8OAAC,2HAAA,CAAA,UAAI;;;;;;;;;;AAGT","debugId":null}}]
-}

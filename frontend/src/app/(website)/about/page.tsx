@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/hero'
 import Team from '../team/page'
-import OverTeam from '../overteam/page'
+
 
 export default function About() {
   return (

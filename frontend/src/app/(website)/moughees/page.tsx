@@ -7,14 +7,14 @@ import {
   MapPin,
   GraduationCap,
   Calendar,
-  Twitter,
+  
   Facebook,
   Instagram,
   Linkedin
 } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import PartnersPage from "../components/partnerspage";
+
 
 export default function Moughees() {
   return (
@@ -139,7 +139,7 @@ export default function Moughees() {
           also enjoys photography and volunteering in tech education programs.
         </p>
       </section>
-      <PartnersPage />
+      
     </main>
   );
 }

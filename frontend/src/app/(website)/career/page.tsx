@@ -4,7 +4,7 @@ import CareerSection from "../components/careersection";
 import WidgetMarqueeSection from "../components/widgetmarqueesection";
 import Testimonials from "../components/testimonials";
 import Faqs from "../components/faqs";
-import HuboHeading from "../components/huboheading";
+
 
 export default function Careers() {
   return (
@@ -15,7 +15,7 @@ export default function Careers() {
         imageSrc="/img/web-designing.png"
       />
       <CareerSection />
-      <HuboHeading text="HuboWeb Technologies empowers your digital journey — combining design, development, and strategy to build innovative solutions that leave a lasting impact." />
+      
       <WidgetMarqueeSection />
       <Testimonials />
       <Faqs imageSrc="/img/faq-removebg-preview.png" />

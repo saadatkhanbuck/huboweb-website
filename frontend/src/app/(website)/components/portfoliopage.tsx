@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { Send } from "lucide-react";
+import Image from "next/image";
 
 const categories = [
   "Website Design",
@@ -124,67 +126,68 @@ export default function PortfolioPage() {
 
   return (
     <section className="w-full bg-transparent py-20 px-6">
-  <div className="max-w-6xl mx-auto text-center">
-    <h2
-      className="text-4xl text-white font-bold mb-4"
-      data-aos="fade-up"
-    >
-      My Creative Work & Portfolio
-    </h2>
-    <p
-      className="text-gray-400 mb-10"
-      data-aos="fade-up"
-      data-aos-delay="100"
-    >
-      Explore a variety of designs crafted with passion and precision.
-    </p>
-
-    {/* Category Buttons */}
-    <div
-      className="flex flex-wrap justify-center gap-3 mb-12"
-      data-aos="zoom-in"
-      data-aos-delay="200"
-    >
-      <HoverButton
-        label="All"
-        isActive={active === "All"}
-        onClick={() => setActive("All")}
-      />
-      {categories.map((cat) => (
-        <HoverButton
-          key={cat}
-          label={cat}
-          isActive={active === cat}
-          onClick={() => setActive(cat)}
-        />
-      ))}
-    </div>
-
-    {/* Cards */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {filteredCards.map((card, idx) => (
-        <div
-          key={idx}
-          className="relative group overflow-hidden rounded-2xl shadow-lg"
+      <div className="max-w-6xl mx-auto text-center">
+        <h2
+          className="text-4xl text-white font-bold mb-4"
           data-aos="fade-up"
-          data-aos-delay={idx * 100}
         >
-          <img
-            src={card.img}
-            alt={card.title}
-            className="w-full h-72 object-cover"
-          />
-          <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-90 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 p-4 text-left">
-            <h3 className="text-xl font-semibold">{card.title}</h3>
-            <p className="text-gray-700 text-sm mb-3">{card.desc}</p>
-            <AnimatedHoverButton label="Detail" slug={card.slug} />
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+          My Creative Work & Portfolio
+        </h2>
+        <p
+          className="text-gray-400 mb-10"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Explore a variety of designs crafted with passion and precision.
+        </p>
 
+        {/* Category Buttons */}
+        <div
+          className="flex flex-wrap justify-center gap-3 mb-12"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >
+          <HoverButton
+            label="All"
+            isActive={active === "All"}
+            onClick={() => setActive("All")}
+          />
+          {categories.map((cat) => (
+            <HoverButton
+              key={cat}
+              label={cat}
+              isActive={active === cat}
+              onClick={() => setActive(cat)}
+            />
+          ))}
+        </div>
+
+        {/* Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {filteredCards.map((card, idx) => (
+            <div
+              key={idx}
+              className="relative group overflow-hidden rounded-2xl shadow-lg"
+              data-aos="fade-up"
+              data-aos-delay={idx * 100}
+            >
+              <Image
+                src={card.img}
+                alt={card.title}
+                width={400}
+                height={288}
+                className="w-full h-72 object-cover"
+              />
+              <div className="absolute bottom-0 left-0 w-full bg-white bg-opacity-90 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 p-4 text-left">
+                <h3 className="text-xl font-semibold">{card.title}</h3>
+                <p className="text-gray-700 text-sm mb-3">{card.desc}</p>
+                <AnimatedHoverButton label="Detail" slug={card.slug} />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -230,8 +233,6 @@ function HoverButton({
 }
 
 // Detail Button Component (Navigates to proper route)
-import { Send } from "lucide-react";
-
 function AnimatedHoverButton({ label, slug }: { label: string; slug: string }) {
   return (
     <Link href={`/${slug}`}>

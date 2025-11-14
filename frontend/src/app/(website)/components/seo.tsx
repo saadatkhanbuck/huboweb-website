@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import {
-  CheckCircle,
+  
   BarChart3,
   Search,
   TrendingUp,
@@ -198,11 +198,12 @@ export default function Seo() {
         </div>
       </div>
 
+     ...
       {/* Final CTA */}
       <div className="text-center space-y-6 mt-16">
         <h2 className="text-4xl font-bold text-white">Ready to Rank Higher?</h2>
         <p className="text-lg text-gray-300 max-w-xl mx-auto">
-          Let's talk about how we can help you dominate search results and grow
+          Let&apos;s talk about how we can help you dominate search results and grow
           your business.
         </p>
         

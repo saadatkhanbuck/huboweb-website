@@ -4,10 +4,9 @@ import {
   Rocket,
   Target,
   Users,
-  MailCheck,
-  Phone,
-  Handshake
+  MailCheck
 } from "lucide-react";
+import Image from "next/image";
 
 export default function LeadGenerationServices() {
   return (
@@ -17,23 +16,29 @@ export default function LeadGenerationServices() {
         {/* Image Section */}
         <div className="relative md:w-1/2 flex items-center justify-center">
           {/* Main Large Image */}
-          <img
+          <Image
             src="/img/lead.jpg"
             alt="Lead Main"
+            width={450}
+            height={350}
             className="w-[350px] md:w-[450px] rounded-xl shadow-2xl"
           />
 
           {/* Small Image Top Right */}
-          <img
+          <Image
             src="/img/lead1.webp"
             alt="Lead Small 1"
+            width={128}
+            height={128}
             className="absolute top-[-30px] right-[10%] w-24 md:w-32 rounded-lg shadow-lg rotate-[6deg]"
           />
 
           {/* Small Image Bottom Left */}
-          <img
+          <Image
             src="/img/lead2.jpg"
             alt="Lead Small 2"
+            width={128}
+            height={128}
             className="absolute bottom-[-30px] left-[10%] w-24 md:w-32 rounded-lg shadow-lg rotate-[-8deg]"
           />
         </div>

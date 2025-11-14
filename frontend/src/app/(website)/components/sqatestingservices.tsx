@@ -1,13 +1,13 @@
 "use client";
 
 import {
-  CheckCircle,
   Bug,
   ShieldCheck,
   TestTubes,
   ClipboardCheck,
   HelpCircle
 } from "lucide-react";
+import Image from "next/image";
 
 export default function SqaAndTestingServices() {
   return (
@@ -26,23 +26,30 @@ export default function SqaAndTestingServices() {
         {/* Images Section */}
         <div className="relative flex items-center justify-center mt-10">
           {/* Main Large Image */}
-          <img
+          <Image
             src="/img/sqa.png"
             alt="SQA Main"
+            width={650}
+            height={400}
             className="w-[500px] md:w-[650px] rounded-xl shadow-2xl"
+            priority
           />
 
           {/* Small Image Top Left */}
-          <img
+          <Image
             src="/img/sqa1.jpg"
             alt="SQA Small 1"
+            width={160}
+            height={160}
             className="absolute top-[-40px] left-[15%] w-32 md:w-40 rounded-lg shadow-lg rotate-[-6deg]"
           />
 
           {/* Small Image Bottom Right */}
-          <img
+          <Image
             src="/img/sqa2.jpeg"
             alt="SQA Small 2"
+            width={160}
+            height={160}
             className="absolute bottom-[-40px] right-[15%] w-32 md:w-40 rounded-lg shadow-lg rotate-[8deg]"
           />
         </div>

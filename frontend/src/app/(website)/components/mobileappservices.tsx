@@ -5,9 +5,9 @@ import {
   Code2,
   ShieldCheck,
   TrendingUp,
-  Wrench,
   Rocket
 } from "lucide-react";
+import Image from "next/image";
 
 export default function MobileAppServices() {
   return (
@@ -30,23 +30,30 @@ export default function MobileAppServices() {
         {/* Main Image Wrapper */}
         <div className="relative w-[450px] md:w-[600px] h-auto">
           {/* Main Image */}
-          <img
+          <Image
             src="/img/mobilebig.jpg"
             alt="Main Mobile App"
+            width={600}
+            height={400}
             className="w-full h-auto rounded-xl shadow-2xl"
+            priority
           />
 
           {/* Top Right Small Image */}
-          <img
+          <Image
             src="/img/mobiletopright.webp"
             alt="Small Top Right"
+            width={160}
+            height={160}
             className="absolute top-0 right-0 translate-x-1/4 -translate-y-1/4 w-32 md:w-40 rounded-lg shadow-lg"
           />
 
           {/* Bottom Left Small Image */}
-          <img
+          <Image
             src="/img/mobilebottomleft.webp"
             alt="Small Bottom Left"
+            width={160}
+            height={160}
             className="absolute bottom-0 left-0 -translate-x-1/4 translate-y-1/4 w-32 md:w-40 rounded-lg shadow-lg"
           />
         </div>

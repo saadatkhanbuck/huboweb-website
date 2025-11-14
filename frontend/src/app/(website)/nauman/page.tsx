@@ -7,14 +7,14 @@ import {
   MapPin,
   GraduationCap,
   Calendar,
-  Twitter,
+  
   Facebook,
   Instagram,
-  Linkedin
+  
 } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import PartnersPage from "../components/partnerspage";
+
 
 export default function Nauman() {
   return (
@@ -125,7 +125,7 @@ export default function Nauman() {
           decentralized finance (DeFi).
         </p>
       </section>
-      <PartnersPage />
+      
     </main>
   );
 }

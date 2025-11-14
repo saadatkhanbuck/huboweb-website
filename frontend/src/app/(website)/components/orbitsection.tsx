@@ -40,18 +40,18 @@ export default function SectionWithOrbit() {
               outerRadius={150}
               innerRadius={90}
               outerIcons={[
-                <Github className="text-black w-12 h-12" />,
-                <Figma className="text-black w-12 h-12" />,
-                <Chrome className="text-black w-12 h-12" />,
-                <Twitter className="text-black w-12 h-12" />,
-                <Gitlab className="text-black w-12 h-12" />,
-                <Mail className="text-black w-12 h-12" />
+                <Github key="github" className="text-black w-12 h-12" />,
+                <Figma key="figma" className="text-black w-12 h-12" />,
+                <Chrome key="chrome" className="text-black w-12 h-12" />,
+                <Twitter key="twitter" className="text-black w-12 h-12" />,
+                <Gitlab key="gitlab" className="text-black w-12 h-12" />,
+                <Mail key="mail" className="text-black w-12 h-12" />
               ]}
               innerIcons={[
-                <Dribbble className="text-black w-10 h-10" />,
-                <Slack className="text-black w-10 h-10" />,
-                <Youtube className="text-black w-10 h-10" />,
-                <Linkedin className="text-black w-10 h-10" />
+                <Dribbble key="dribbble" className="text-black w-10 h-10" />,
+                <Slack key="slack" className="text-black w-10 h-10" />,
+                <Youtube key="youtube" className="text-black w-10 h-10" />,
+                <Linkedin key="linkedin" className="text-black w-10 h-10" />
               ]}
             />
           </div>

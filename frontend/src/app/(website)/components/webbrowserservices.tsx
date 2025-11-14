@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 export default function WebBrowserServices() {
   return (
@@ -119,10 +118,10 @@ export default function WebBrowserServices() {
         <div className="md:w-1/2 space-y-6">
           <h3 className="text-3xl font-semibold">Success Stories</h3>
           <p className="text-white">
-            From productivity trackers to LinkedIn automation tools, we've
+            From productivity trackers to LinkedIn automation tools, we&apos;ve
             helped businesses launch impactful extensions with thousands of
-            daily active users and excellent user reviews. Whether you're
-            enhancing internal tools or building public utilities, we’ve got the
+            daily active users and excellent user reviews. Whether you&apos;re
+            enhancing internal tools or building public utilities, we&apos;ve got the
             experience to deliver.
           </p>
         </div>
@@ -166,11 +165,11 @@ export default function WebBrowserServices() {
       {/* CTA */}
       <div className="text-center space-y-6">
         <h3 className="text-3xl font-semibold">
-          Let’s Build Your Browser Extension
+          Let&apos;s Build Your Browser Extension
         </h3>
         <p className="max-w-2xl mx-auto text-white">
           Ready to enhance your product or business with a browser extension?
-          Contact us now for a free consultation and let’s transform your idea
+          Contact us now for a free consultation and let&apos;s transform your idea
           into a live extension.
         </p>
        

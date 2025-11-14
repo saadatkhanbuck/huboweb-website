@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Hero from "./hero/page";
+
+import Hero from "./home/page";
 
 export default function Home() {
   return (
