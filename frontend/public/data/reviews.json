@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Amazon",
+    "username": "@amazon",
+    "body": "Amazon is the world’s largest online retailer,",
+    "img": "/img/amazon.jpg"
+  },
+  {
+    "name": "Apple",
+    "username": "@apple",
+    "body": "Apple designs like the iPhone, iPad, and Mac,",
+    "img": "/img/apple.webp"
+  },
+  {
+    "name": "Brand",
+    "username": "@brand",
+    "body": "Brand specializes in building unique",
+    "img": "/img/brand.jpg"
+  },
+  {
+    "name": "Mercedies",
+    "username": "@mercedies",
+    "body": "Mercedes-Benz is a crafting premium vehicles",
+    "img": "/img/mercdies.webp"
+  },
+  {
+    "name": "Nike",
+    "username": "@nike",
+    "body": "Nike leads the sportswear industry",
+    "img": "/img/nike.webp"
+  },
+  {
+    "name": "Luxury",
+    "username": "@luxury",
+    "body": "Luxury creates exclusive fashion",
+    "img": "/img/luxury.jpg"
+  }
+]

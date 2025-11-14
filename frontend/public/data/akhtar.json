@@ -1,0 +1,22 @@
+{
+  "name": "Akhtar Abbas",
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/AkhtarAbbas2004?mibextid=LQQJ4d",
+    "instagram": "https://www.instagram.com/akhtarabbas909/?igsh=M2Jxa3VwMnBsdDhu#",
+    "linkedin": "https://www.linkedin.com/in/akhtarabbas909?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  "details": {
+    "birthday": "October 19, 1990",
+    "age": 35,
+    "phone": "+92 3214829814",
+    "email": "akhtar.abbas@huboweb.com",
+    "address": "Lahore, Pakistan",
+    "position": "Chief Technical Officer (CTO)"
+  },
+  "profileImage": "/img/dummy-profile-pic.jpg",
+  "about": [
+    "Akhtar Abbas is an accomplished business strategist and operations leader. With over a decade of experience in management consulting and corporate development, Akhtar brings deep insight into business transformation.",
+    "Known for his analytical mindset and people-first leadership, Akhtar has led cross-functional teams in executing large-scale operational strategies. He thrives in high-pressure environments and believes in leading by example.",
+    "When not immersed in strategy sessions, Akhtar enjoys hiking, reading history, and mentoring young professionals in the business field."
+  ]
+}

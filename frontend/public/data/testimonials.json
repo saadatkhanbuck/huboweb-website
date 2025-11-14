@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Adrienne L.",
+    "title": "Student loan refinancing",
+    "text": "SoFi has made my refinancing experience social, interesting, and fun through their community events and member engagement. I found their advisors supportive and responsive. Highly recommend them to anyone looking to refinance.",
+    "image": "/img/client.jpg",
+    "color": "#F97316"
+  },
+  {
+    "name": "Michael W.",
+    "title": "Student loan refinancing",
+    "text": "SoFi career coaching has helped me tremendously over the past few months. I doubt I would have been able to make the amount of progress in such a short time if I didn't have it available to me. They really understand what job seekers need.",
+    "image": "/img/client.jpg",
+    "color": "#06B6D4"
+  },
+  {
+    "name": "Sophia R.",
+    "title": "Home Loan",
+    "text": "Getting a home loan through SoFi was incredibly smooth and efficient. I felt supported every step of the way. Their team made the process easy and stress-free.",
+    "image": "/img/client.jpg",
+    "color": "#84CC16"
+  },
+  {
+    "name": "David K.",
+    "title": "Investment Advice",
+    "text": "Their investment tools and advisors helped me make smarter decisions with my portfolio. I now feel much more confident in my financial future.",
+    "image": "/img/client.jpg",
+    "color": "#A855F7"
+  },
+  {
+    "name": "Emily T.",
+    "title": "Career Coaching",
+    "text": "Thanks to SoFi, I landed my dream job in less than 3 months! The career coaching really works. I gained clarity, confidence, and real strategy to move forward.",
+    "image": "/img/client.jpg",
+    "color": "#F43F5E"
+  }
+]

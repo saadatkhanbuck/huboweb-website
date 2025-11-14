@@ -1,0 +1,47 @@
+{
+  "mainPanel": {
+    "title": "Dashboard Overview",
+    "subtitle": "Monitor your system and activities",
+    "image": "/img/dashboard.jpg",
+    "description": "Quick glance at the performance metrics, user activity, and notifications."
+  },
+  "widgets": [
+    {
+      "title": "Active Users",
+      "image": "/img/dashboard2.jpg",
+      "description": "Users currently active on the platform."
+    },
+    {
+      "title": "Server Load",
+      "image": "/img/dashboard3.jpg",
+      "description": "Real-time server performance."
+    }
+  ],
+  "activities": [
+    {
+      "avatar": "/img/comment4.jpg",
+      "username": "latina",
+      "date": "Nov 14, 2025",
+      "activity": "Updated profile settings"
+    },
+    {
+      "avatar": "/img/comment7.jpg",
+      "username": "Jane Smith",
+      "date": "Nov 14, 2025",
+      "activity": "Uploaded new document"
+    }
+  ],
+  "sidebar": {
+    "user": {
+      "avatar": "/img/comment13.jpg",
+      "name": "Admin User",
+      "role": "Administrator"
+    },
+    "shortcuts": ["Analytics", "Users", "Settings", "Reports"],
+    "recentActivities": [
+      "User login",
+      "Payment completed",
+      "New signup"
+    ]
+  }
+}

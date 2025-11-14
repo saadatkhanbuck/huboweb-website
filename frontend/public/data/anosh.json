@@ -1,0 +1,21 @@
+{
+  "name": "Anosh Haider",
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/ReMeMbErr?mibextid=LQQJ4d",
+    "instagram": "https://www.instagram.com/ranahaider__/?igsh=eGIxa2QyMW1kbnIx#"
+  },
+  "details": {
+    "birthday": "March 17, 1993",
+    "age": 32,
+    "phone": "+92 322 4824998",
+    "email": "rana.haider@huboweb.com",
+    "address": "Lahore, Pakistan",
+    "position": "Chief Executive Officer (CEO)"
+  },
+  "profileImage": "/img/anosh.png",
+  "about": [
+    "Anosh Haider is a visionary technology leader with years of experience in software engineering, system architecture, and innovation strategy. As the Chief Technical Officer at our company, he plays a key role in driving digital transformation and developing scalable technology solutions.",
+    "Anosh specializes in cloud computing, microservices architecture, DevOps practices, and agile leadership. He has led multiple successful projects and believes in building products that truly solve user problems. His leadership style is collaborative, transparent, and focused on growth.",
+    "Outside of work, Anosh is a mentor, speaker, and lifelong learner. He regularly contributes to open-source projects, attends tech conferences, and writes about technology trends and startup culture."
+  ]
+}

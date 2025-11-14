@@ -1,59 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
-const reviews = [
-  {
-    name: "Amazon",
-    username: "@amazon",
-    body: "Amazon is the world’s largest online retailer,",
-    img: "/img/amazon.jpg"
-  },
-  {
-    name: "Apple",
-    username: "@apple",
-    body: "Apple designs like the iPhone, iPad, and Mac,",
-    img: "/img/apple.webp"
-  },
-  {
-    name: "Brand",
-    username: "@brand",
-    body: "Brand specializes in building unique",
-    img: "/img/brand.jpg"
-  },
-  {
-    name: "Mercedies",
-    username: "@mercedies",
-    body: "Mercedes-Benz is a crafting premium vehicles",
-    img: "/img/mercdies.webp"
-  },
-  {
-    name: "Nike",
-    username: "@nike",
-    body: "Nike leads the sportswear industry",
-    img: "/img/nike.webp"
-  },
-  {
-    name: "Luxury",
-    username: "@luxury",
-    body: "Luxury creates exclusive fashion",
-    img: "/img/luxury.jpg"
-  }
-];
-
-const ReviewCard = ({
-  img,
-  name,
-  username,
-  body
-}: {
-  img: string;
+interface Review {
   name: string;
   username: string;
   body: string;
-}) => (
+  img: string;
+}
+
+const ReviewCard = ({ img, name, username, body }: Review) => (
   <div className="w-64 shrink-0 p-4 border rounded-xl border-gray-900 bg-gray-950/10 mx-2">
     <div className="flex items-center gap-3">
       <Image
@@ -75,13 +33,23 @@ const ReviewCard = ({
 );
 
 export default function MarqueeDemo() {
+  const [reviews, setReviews] = useState<Review[]>([]);
   const [pauseFirst, setPauseFirst] = useState(false);
   const [pauseSecond, setPauseSecond] = useState(false);
 
+  useEffect(() => {
+    fetch("/data/reviews.json")
+      .then((res) => res.json())
+      .then((data) => setReviews(data))
+      .catch((err) =>
+        console.error("Error loading reviews.json:", err)
+      );
+  }, []);
+
   return (
     <div className="relative flex flex-col gap-5 py-10 overflow-hidden">
+
       {/* First Row (Left) */}
-      {/* First Line – Left to Right */}
       <div
         onMouseEnter={() => setPauseFirst(true)}
         onMouseLeave={() => setPauseFirst(false)}
@@ -99,7 +67,7 @@ export default function MarqueeDemo() {
         </div>
       </div>
 
-      {/* Second Line – Right to Left */}
+      {/* Second Row (Right) */}
       <div
         onMouseEnter={() => setPauseSecond(true)}
         onMouseLeave={() => setPauseSecond(false)}
@@ -116,6 +84,7 @@ export default function MarqueeDemo() {
           ))}
         </div>
       </div>
+
     </div>
   );
 }

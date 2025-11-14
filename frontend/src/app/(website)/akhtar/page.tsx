@@ -138,7 +138,7 @@ export default function akhtar() {
           history, and mentoring young professionals in the business field.
         </p>
       </section>
-     
+      
     </main>
   );
 }

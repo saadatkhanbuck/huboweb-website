@@ -1,0 +1,22 @@
+{
+  "name": "Moughees Hasan Raza",
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/moughees.hassan?mibextid=LQQJ4d",
+    "instagram": "https://www.instagram.com/itzmoughees/profilecard/?igsh=MXV0bGlkaHFrdmk1Yg%3D%3D",
+    "linkedin": "https://www.linkedin.com/in/moughees-hasan-raza-67978917a"
+  },
+  "details": {
+    "birthday": "November 28, 1997",
+    "age": 28,
+    "phone": "+92 305 4327313",
+    "email": "moughees.hasan@huboweb.com",
+    "address": "Lahore, Pakistan",
+    "position": "Chief Technical Officer (CTO)"
+  },
+  "profileImage": "/img/moughees2.jpg",
+  "about": [
+    "Moughees Raza is a passionate and forward-thinking Chief Technical Officer with extensive experience in building scalable, secure, and high-performance systems. He has played a pivotal role in modernizing enterprise software and leading high-caliber development teams.",
+    "He is an expert in distributed systems, DevSecOps, and cutting-edge cloud infrastructure. Moughees believes in writing clean code, promoting engineering excellence, and empowering his team with mentorship and growth opportunities.",
+    "Outside of work, he’s an advocate of open-source contributions, AI research, and spends time experimenting with emerging tech. Moughees also enjoys photography and volunteering in tech education programs."
+  ]
+}
