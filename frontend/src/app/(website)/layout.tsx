@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "aos/dist/aos.css"; // ✅ ✅ ✅ AOS CSS MUST be imported here
 
-
 import Navbar from "./navbar/page";
 import Footer from "./footer/page";
 import AOSProvider from "./components/aosprovider"; // ✅ Correct

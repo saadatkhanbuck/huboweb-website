@@ -1,0 +1,37 @@
+[
+  {
+    "icon": "Search",
+    "title": "Search Engine Optimization (SEO)",
+    "desc": "Improve your website’s visibility on search engines like Google through keyword optimization, technical SEO, and high-quality backlinks."
+  },
+  {
+    "icon": "MailCheck",
+    "title": "Email Marketing",
+    "desc": "Engage your audience through targeted, automated, and personalized email campaigns that drive conversions and build customer relationships."
+  },
+  {
+    "icon": "Users",
+    "title": "Social Media Marketing",
+    "desc": "Grow your brand presence on platforms like Facebook, Instagram, and LinkedIn with engaging content, paid campaigns, and audience analytics."
+  },
+  {
+    "icon": "Share2",
+    "title": "Content Marketing",
+    "desc": "Create and distribute valuable content like blogs, videos, and infographics to attract and retain a clearly defined audience."
+  },
+  {
+    "icon": "Globe2",
+    "title": "PPC & Google Ads",
+    "desc": "Run high-performing Google Ads and pay-per-click campaigns that bring immediate traffic and measurable ROI."
+  },
+  {
+    "icon": "LineChart",
+    "title": "Analytics & Conversion Tracking",
+    "desc": "Track your campaigns and optimize them using tools like Google Analytics, Tag Manager, and heatmaps for better results."
+  },
+  {
+    "icon": "BarChart2",
+    "title": "Marketing Strategy & Consulting",
+    "desc": "Build winning marketing strategies tailored to your brand’s vision, audience, and goals with data-driven insights."
+  }
+]

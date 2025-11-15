@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Responsive Web Design",
+    "description": "We craft beautiful, responsive websites that look great on all devices.",
+    "icon": "Smartphone"
+  },
+  {
+    "title": "Frontend Development",
+    "description": "Modern UI development using React.js, Next.js, and Tailwind CSS.",
+    "icon": "Code2"
+  },
+  {
+    "title": "Backend Integration",
+    "description": "Robust and scalable backend APIs using Node.js, Express, or Firebase.",
+    "icon": "Wrench"
+  },
+  {
+    "title": "Website Optimization",
+    "description": "Improve performance, accessibility, and SEO of your site.",
+    "icon": "SearchCheck"
+  },
+  {
+    "title": "Custom Web Applications",
+    "description": "From dashboards to SaaS apps, we build solutions tailored to your needs.",
+    "icon": "Monitor"
+  },
+  {
+    "title": "Deployment & Hosting",
+    "description": "We deploy your site using Vercel, Netlify, or your preferred cloud.",
+    "icon": "Rocket"
+  }
+]

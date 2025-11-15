@@ -3,48 +3,64 @@
     "title": "CRM Automation",
     "description": "Boost the success of your company by using Google Ads to increase online visibility and promote growth.",
     "image": "/img/card10.jpg",
-    "logo": "/img/crmautomation.png"
+    "logo": "/img/crmautomation.png",
+    "slug": "crmautomation",
+    "color": "#f43f5e"
   },
   {
     "title": "Web Design & Development",
-    "description": "Revolutionize your digital footprint with our bespoke web design solutions-where innovation",
+    "description": "Revolutionize your digital footprint with our bespoke web design solutions-where innovation meets pixel perfection.",
     "image": "/img/card4.jpeg",
-    "logo": "/img/webdesigne.png"
+    "logo": "/img/webdesigne.png",
+    "slug": "webdesign",
+    "color": "#eb5ae5"
   },
   {
     "title": "UI/UX Design",
     "description": "Elevate engagement, inspire loyalty-our UI/UX design redefines the digital frontier, one click at a time.",
     "image": "/img/card9.jpg",
-    "logo": "/img/uidesigne.png"
+    "logo": "/img/uidesigne.png",
+    "slug": "uiuxdesign",
+    "color": "#89ec5b"
   },
   {
     "title": "Mobile App Development",
     "description": "From concept to code, we craft, redefine mobile solutions that inspire engagement and empowering your brand.",
     "image": "/img/card8.jpg",
-    "logo": "/img/mobiledeveloper.png"
+    "logo": "/img/mobiledeveloper.png",
+    "slug": "mobileapp",
+    "color": "#38bdf8"
   },
   {
     "title": "Graphics Design",
     "description": "Transforming pixels into profit our cutting-edge graphics design sets your brand apart in the digital landscape.",
     "image": "/img/card7.webp",
-    "logo": "/img/graphicdesigne.png"
+    "logo": "/img/graphicdesigne.png",
+    "slug": "graphicdesign",
+    "color": "#8b5cf6"
   },
   {
     "title": "Robotic Process Automation",
     "description": "Robotic Process Automation uses bots to automate repetitive tasks, boosting efficiency and accuracy.",
     "image": "/img/card6.png",
-    "logo": "/img/roboticautomation.png"
+    "logo": "/img/roboticautomation.png",
+    "slug": "roboticprocess",
+    "color": "#89ec5b"
   },
   {
     "title": "Digital Marketing",
     "description": "Captivate, Convert, Conquer-the digital realm is yours to conquer with our dynamic digital marketing strategies.",
     "image": "/img/card3.jpg",
-    "logo": "/img/digitalmarketing.png"
+    "logo": "/img/digitalmarketing.png",
+    "slug": "digitalmarketing",
+    "color": "#f59e0b"
   },
   {
     "title": "SEO Optimization",
     "description": "Dominate rankings and seize digital supremacy with strategic optimization where visibility meets profitability.",
     "image": "/img/seo.webp",
-    "logo": "/img/seooptimization.png"
+    "logo": "/img/seooptimization.png",
+    "slug": "seooptimization",
+    "color": "#5b98eb"
   }
 ]

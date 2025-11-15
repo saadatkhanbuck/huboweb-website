@@ -1,0 +1,66 @@
+{
+  "whyCrm": {
+    "title": "Why CRM Automation Matters",
+    "description": "In today's digital landscape, manually managing customer relationships is inefficient and risky...",
+    "points": [
+      "Automated lead capturing and segmentation",
+      "Real-time performance analytics and insights",
+      "Seamless integration with your existing tools",
+      "Smart workflows to reduce manual errors"
+    ]
+  },
+  "whatWeAutomate": [
+    {
+      "title": "Sales Pipeline Automation",
+      "desc": "Streamline your entire sales funnel from lead capture to deal closure.",
+      "icon": "Workflow"
+    },
+    {
+      "title": "Chatbot & Communication",
+      "desc": "Engage customers with AI-driven responses, auto-emails, and notifications.",
+      "icon": "Bot"
+    },
+    {
+      "title": "Data Sync & Management",
+      "desc": "Ensure all customer data is accurate, updated, and stored securely.",
+      "icon": "DatabaseZap"
+    },
+    {
+      "title": "Lead Qualification",
+      "desc": "Filter and score leads based on engagement and behavior.",
+      "icon": "UserCheck"
+    },
+    {
+      "title": "Security & Compliance",
+      "desc": "Implement data policies that keep you compliant with industry regulations.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Workflow Triggers",
+      "desc": "Trigger actions like follow-ups, escalations, or status changes automatically.",
+      "icon": "Zap"
+    }
+  ],
+  "implementationProcess": [
+    "Business Requirements Analysis",
+    "CRM Tool Selection & Planning",
+    "Workflow Design & Automation Setup",
+    "Data Migration & Integration",
+    "Testing & Staff Training",
+    "Ongoing Optimization & Support"
+  ],
+  "faqs": [
+    {
+      "q": "Do you support integrations with tools like HubSpot, Salesforce, or Zoho?",
+      "a": "Yes, we build custom automations and integrations with major CRM platforms tailored to your workflow."
+    },
+    {
+      "q": "Is CRM automation suitable for small businesses?",
+      "a": "Absolutely. We scale CRM automation solutions according to your team size and growth stage."
+    },
+    {
+      "q": "How long does CRM implementation take?",
+      "a": "It depends on complexity, but typically 2–6 weeks from discovery to deployment."
+    }
+  ]
+}

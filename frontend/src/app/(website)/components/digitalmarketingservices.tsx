@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useEffect, useState } from "react";
 import {
   Search,
   LineChart,
@@ -10,44 +11,33 @@ import {
   BarChart2
 } from "lucide-react";
 
+interface Service {
+  icon: string;
+  title: string;
+  desc: string;
+}
+
+const iconMap: Record<string, React.ReactNode> = {
+  Search: <Search size={32} />,
+  LineChart: <LineChart size={32} />,
+  MailCheck: <MailCheck size={32} />,
+  Users: <Users size={32} />,
+  Share2: <Share2 size={32} />,
+  Globe2: <Globe2 size={32} />,
+  BarChart2: <BarChart2 size={32} />
+};
+
 export default function DigitalMarketingServices() {
-  const services = [
-    {
-      icon: <Search size={32} />,
-      title: "Search Engine Optimization (SEO)",
-      desc: "Improve your website’s visibility on search engines like Google through keyword optimization, technical SEO, and high-quality backlinks."
-    },
-    {
-      icon: <MailCheck size={32} />,
-      title: "Email Marketing",
-      desc: "Engage your audience through targeted, automated, and personalized email campaigns that drive conversions and build customer relationships."
-    },
-    {
-      icon: <Users size={32} />,
-      title: "Social Media Marketing",
-      desc: "Grow your brand presence on platforms like Facebook, Instagram, and LinkedIn with engaging content, paid campaigns, and audience analytics."
-    },
-    {
-      icon: <Share2 size={32} />,
-      title: "Content Marketing",
-      desc: "Create and distribute valuable content like blogs, videos, and infographics to attract and retain a clearly defined audience."
-    },
-    {
-      icon: <Globe2 size={32} />,
-      title: "PPC & Google Ads",
-      desc: "Run high-performing Google Ads and pay-per-click campaigns that bring immediate traffic and measurable ROI."
-    },
-    {
-      icon: <LineChart size={32} />,
-      title: "Analytics & Conversion Tracking",
-      desc: "Track your campaigns and optimize them using tools like Google Analytics, Tag Manager, and heatmaps for better results."
-    },
-    {
-      icon: <BarChart2 size={32} />,
-      title: "Marketing Strategy & Consulting",
-      desc: "Build winning marketing strategies tailored to your brand’s vision, audience, and goals with data-driven insights."
-    }
-  ];
+  const [services, setServices] = useState<Service[]>([]);
+
+  useEffect(() => {
+    fetch("/data/digitalMarketing.json")
+      .then(res => res.json())
+      .then(json => setServices(json))
+      .catch(err => console.error("Error fetching digitalMarketing.json:", err));
+  }, []);
+
+  if (!services.length) return <p className="text-white text-center py-20">Loading...</p>;
 
   return (
     <section className="w-full bg-transparent py-20 px-4 md:px-12 text-white">
@@ -69,7 +59,7 @@ export default function DigitalMarketingServices() {
               className="bg-[#0f0b2b] border border-gray-800 rounded-2xl p-6 hover:shadow-lg hover:shadow-yellow-500/10 transition duration-300"
             >
               <div className="flex items-center gap-4 mb-4 text-white">
-                {item.icon}{" "}
+                {iconMap[item.icon]}{" "}
                 <h3 className="text-xl font-semibold">{item.title}</h3>
               </div>
               <p className="text-gray-300 text-sm">{item.desc}</p>

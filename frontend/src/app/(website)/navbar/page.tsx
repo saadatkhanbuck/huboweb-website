@@ -21,7 +21,7 @@ const Navbar = () => {
     { name: "Portfolio", path: "/portfolio" },
     { name: "About Us", path: "/about" },
     { name: "Careers", path: "/career" },
-    { name: "Contact Us", path: "/contact" }, // ✅ Contact Us moved here
+    { name: "Contact Us", path: "/contact" } // ✅ Contact Us moved here
   ];
 
   useEffect(() => {

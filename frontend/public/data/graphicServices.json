@@ -1,0 +1,61 @@
+[
+  {
+    "section": "why",
+    "title": "Why Choose Our Graphic Design Services",
+    "description": "At our software house, we don't just design — we tell your brand's story through stunning visuals. With a team of seasoned graphic designers, we ensure every design is modern, brand-focused, and conversion-optimized.",
+    "points": [
+      "Innovative & Custom Designs Tailored to Your Brand",
+      "Unlimited Revisions Until You're Satisfied",
+      "Fast Turnaround Time with Quality Assurance"
+    ],
+    "image": "/img/tech.jpg"
+  },
+  {
+    "section": "services",
+    "title": "Services We Offer",
+    "items": [
+      { "title": "Logo Design", "desc": "Unique, timeless logos that reflect your brand identity.", "icon": "PenTool" },
+      { "title": "Branding & Identity", "desc": "Full brand kits with color palettes, typography, and brand guidelines.", "icon": "BadgePercent" },
+      { "title": "Social Media Posts", "desc": "Eye-catching designs for all platforms to boost your online presence.", "icon": "Instagram" },
+      { "title": "Brochures & Flyers", "desc": "Creative and informative designs for marketing materials.", "icon": "FileText" },
+      { "title": "Posters & Banners", "desc": "Large-scale visuals optimized for both digital and print use.", "icon": "LayoutTemplate" },
+      { "title": "Business Cards", "desc": "Professional, clean, and impactful business card designs.", "icon": "Contact2" }
+    ]
+  },
+  {
+    "section": "process",
+    "title": "Our Design Process",
+    "steps": [
+      "Requirement Gathering",
+      "Research & Moodboard",
+      "Concept Sketches",
+      "Design Execution",
+      "Feedback & Revisions",
+      "Final Delivery"
+    ],
+    "image": "/img/tech1.jpg"
+  },
+  {
+    "section": "testimonials",
+    "title": "What Our Clients Say",
+    "items": [
+      { "text": "The team delivered exactly what I envisioned. Their designs are clean, professional, and aligned perfectly with my brand!", "author": "Sarah Malik" },
+      { "text": "Professional and creative designers who truly understand brand identity and aesthetics.", "author": "Ali Raza" }
+    ]
+  },
+  {
+    "section": "faq",
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "How many revisions are included?", "a": "We offer unlimited revisions until you're fully satisfied with the final design." },
+      { "q": "Do you provide source files?", "a": "Yes, we provide all editable source files in formats like AI, PSD, or Figma." },
+      { "q": "How long does it take to deliver?", "a": "Turnaround time varies based on complexity but typically ranges from 2 to 5 business days." }
+    ]
+  },
+  {
+    "section": "cta",
+    "title": "Ready to Elevate Your Brand?",
+    "description": "Let our creative team turn your vision into a visual masterpiece. Get in touch today and experience design excellence.",
+    "image": "/img/tech3.jpg"
+  }
+]

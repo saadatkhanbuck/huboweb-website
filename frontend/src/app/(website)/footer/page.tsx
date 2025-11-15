@@ -229,8 +229,8 @@ const Footer = () => {
             {/* Copyright */}
             {/* Copyright */}
             <p className="text-xs text-gray-400">
-              © 2021–2024 <span className="text-white">HuboWeb.com</span>.
-              All rights reserved |{" "}
+              © 2021–2024 <span className="text-white">HuboWeb.com</span>. All
+              rights reserved |{" "}
               <Link
                 href="/privacypolicy"
                 className="underline hover:text-white"

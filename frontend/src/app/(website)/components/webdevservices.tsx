@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import {
   Monitor,
@@ -10,45 +11,34 @@ import {
   SearchCheck
 } from "lucide-react";
 
-const services = [
-  {
-    title: "Responsive Web Design",
-    description:
-      "We craft beautiful, responsive websites that look great on all devices.",
-    icon: <Smartphone className="h-8 w-8 text-white" />
-  },
-  {
-    title: "Frontend Development",
-    description:
-      "Modern UI development using React.js, Next.js, and Tailwind CSS.",
-    icon: <Code2 className="h-8 w-8 text-white" />
-  },
-  {
-    title: "Backend Integration",
-    description:
-      "Robust and scalable backend APIs using Node.js, Express, or Firebase.",
-    icon: <Wrench className="h-8 w-8 text-white" />
-  },
-  {
-    title: "Website Optimization",
-    description: "Improve performance, accessibility, and SEO of your site.",
-    icon: <SearchCheck className="h-8 w-8 text-white" />
-  },
-  {
-    title: "Custom Web Applications",
-    description:
-      "From dashboards to SaaS apps, we build solutions tailored to your needs.",
-    icon: <Monitor className="h-8 w-8 text-white" />
-  },
-  {
-    title: "Deployment & Hosting",
-    description:
-      "We deploy your site using Vercel, Netlify, or your preferred cloud.",
-    icon: <Rocket className="h-8 w-8 text-white" />
-  }
-];
+interface Service {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  Monitor,
+  Code2,
+  Smartphone,
+  Rocket,
+  Wrench,
+  SearchCheck
+};
 
 export default function WebDevServices() {
+  const [services, setServices] = useState<Service[]>([]);
+
+  useEffect(() => {
+    fetch("/data/web.json")
+      .then((res) => res.json())
+      .then((data: Service[]) => setServices(data))
+      .catch((err) => console.error("Error fetching web.json:", err));
+  }, []);
+
+  if (!services.length)
+    return <p className="text-white text-center py-20">Loading...</p>;
+
   return (
     <section className="w-full bg-transparent text-white py-20 px-4 md:px-10">
       <div className="text-center mb-12">
@@ -62,22 +52,27 @@ export default function WebDevServices() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        {services.map((service, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: index * 0.1 }}
-            className="bg-[#0e0b2a] border border-gray-800 rounded-2xl p-6 shadow-md hover:shadow-yellow-500/20 transition-shadow"
-          >
-            <div className="mb-4">{service.icon}</div>
-            <h3 className="text-xl font-semibold text-white mb-2">
-              {service.title}
-            </h3>
-            <p className="text-gray-400 text-sm">{service.description}</p>
-          </motion.div>
-        ))}
+        {services.map((service, index) => {
+          const Icon = iconMap[service.icon] || Smartphone;
+          return (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: index * 0.1 }}
+              className="bg-[#0e0b2a] border border-gray-800 rounded-2xl p-6 shadow-md hover:shadow-yellow-500/20 transition-shadow"
+            >
+              <div className="mb-4">
+                <Icon className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                {service.title}
+              </h3>
+              <p className="text-gray-400 text-sm">{service.description}</p>
+            </motion.div>
+          );
+        })}
       </div>
     </section>
   );

@@ -1,0 +1,79 @@
+[
+  {
+    "section": "intro",
+    "title": "Robotic Process Automation (RPA)",
+    "description": "Streamline and optimize repetitive business processes with intelligent automation. Our RPA services help you reduce manual effort, eliminate errors, and enhance productivity using modern bots and automation tools.",
+    "images": {
+      "main": "/img/robotic.webp",
+      "topLeft": "/img/robotic1.webp",
+      "bottomRight": "/img/robotic2.jpg"
+    }
+  },
+  {
+    "section": "benefits",
+    "title": "Why RPA Matters",
+    "points": [
+      "Increase operational efficiency and speed through task automation.",
+      "Eliminate human errors in repetitive processes.",
+      "Ensure compliance by standardizing workflows.",
+      "Free up your workforce to focus on higher-value tasks."
+    ]
+  },
+  {
+    "section": "automation",
+    "title": "What Can Be Automated?",
+    "description": "We specialize in automating tasks across departments:",
+    "tasks": [
+      "Data entry and data migration",
+      "Invoice processing and finance tasks",
+      "HR onboarding and document handling",
+      "Customer service ticket routing",
+      "Inventory updates and logistics",
+      "Report generation and dashboard updates"
+    ]
+  },
+  {
+    "section": "process",
+    "title": "Our RPA Implementation Process",
+    "steps": [
+      "We analyze and identify automation-ready processes within your organization.",
+      "Design custom bots tailored to your workflow requirements.",
+      "Develop and test the automation solution in a secure environment.",
+      "Deploy bots and ensure smooth integration with your existing systems.",
+      "Monitor, support, and continuously optimize the RPA setup."
+    ]
+  },
+  {
+    "section": "testimonials",
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "text": "The RPA bots developed by their team have saved us hundreds of hours every month. Exceptional service and results!",
+        "author": "Adeel H., Operations Manager"
+      },
+      {
+        "text": "Their automation workflows integrated seamlessly with our CRM and finance systems. Highly recommend for scalable automation.",
+        "author": "Sana A., CTO"
+      }
+    ]
+  },
+  {
+    "section": "faq",
+    "title": "FAQs",
+    "items": [
+      {
+        "q": "Is RPA suitable for small businesses?",
+        "a": "Yes! RPA can streamline processes in businesses of all sizes, making operations faster and more reliable."
+      },
+      {
+        "q": "How long does it take to implement?",
+        "a": "It depends on the complexity, but many automations can be designed and deployed within 2–4 weeks."
+      }
+    ]
+  },
+  {
+    "section": "cta",
+    "title": "Ready to Automate?",
+    "description": "Let's build powerful bots that save time and improve efficiency. Contact us today to get started."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "section": "hero",
+    "title": "Mobile App Development",
+    "description": "Empower your business with high-performance, feature-rich mobile applications tailored for Android, iOS, and cross-platform environments. Our apps are built to scale, engage, and deliver exceptional user experiences."
+  },
+  {
+    "section": "images",
+    "main": "/img/mobilebig.jpg",
+    "topRight": "/img/mobiletopright.webp",
+    "bottomLeft": "/img/mobilebottomleft.webp"
+  },
+  {
+    "section": "why",
+    "title": "Why Your Business Needs a Mobile App",
+    "description": "In today's mobile-first world, a custom mobile app can increase accessibility, streamline customer interaction, enhance brand recognition, and provide valuable business insights."
+  },
+  {
+    "section": "services",
+    "items": [
+      {
+        "title": "iOS & Android Development",
+        "description": "Native apps for iOS and Android that are responsive, secure, and deliver top-tier performance across all devices.",
+        "icon": "Smartphone"
+      },
+      {
+        "title": "Cross-Platform Apps",
+        "description": "Build once and deploy everywhere with Flutter, React Native, and hybrid app solutions tailored to your goals.",
+        "icon": "Code2"
+      },
+      {
+        "title": "Security & Compliance",
+        "description": "We prioritize user data protection, secure authentication, and compliance with international data regulations.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "App Store Optimization",
+        "description": "Optimize app visibility and downloads with effective ASO strategies for both Google Play and App Store.",
+        "icon": "TrendingUp"
+      }
+    ]
+  },
+  {
+    "section": "process",
+    "title": "Our App Development Process",
+    "description": "Our process is agile, transparent, and highly collaborative to ensure your product reaches its full potential.",
+    "steps": [
+      "Consultation & Requirement Gathering: We work closely with you to understand your goals, audience, and project scope.",
+      "UI/UX Design: We design sleek, intuitive interfaces that provide exceptional user experiences.",
+      "Development: Our engineers build high-performance mobile apps using modern tools and best practices.",
+      "Testing & QA: Rigorous testing to ensure your app is bug-free, secure, and reliable.",
+      "Deployment & Launch: Launching your app with confidence and strategic app store presence.",
+      "Post-Launch Support: Ongoing support, monitoring, and upgrades based on user feedback and analytics."
+    ]
+  },
+  {
+    "section": "cta",
+    "title": "Ready to Build Your App?",
+    "description": "Let’s bring your app idea to life with scalable technology, user-centered design, and expert development.",
+    "icon": "Rocket"
+  }
+]

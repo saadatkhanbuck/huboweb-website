@@ -1,0 +1,71 @@
+{
+  "services": [
+    {
+      "icon": "Search",
+      "title": "On-Page SEO",
+      "desc": "Optimize your website's content, HTML, and meta tags to improve visibility."
+    },
+    {
+      "icon": "TrendingUp",
+      "title": "Off-Page SEO",
+      "desc": "Build authority through quality backlinks and social signals."
+    },
+    {
+      "icon": "LineChart",
+      "title": "Technical SEO",
+      "desc": "Improve site speed, crawlability, and structure for better indexing."
+    },
+    {
+      "icon": "BarChart3",
+      "title": "Keyword Research",
+      "desc": "Find and target the right keywords that bring the most value."
+    },
+    {
+      "icon": "Rocket",
+      "title": "Site Audit",
+      "desc": "Identify and fix SEO issues with comprehensive audits."
+    },
+    {
+      "icon": "Globe2",
+      "title": "Local SEO",
+      "desc": "Boost visibility in local searches and maps for nearby customers."
+    }
+  ],
+  "workflow": [
+    { "title": "Audit & Analysis", "image": "/img/dashboard.jpg" },
+    { "title": "Keyword Research", "image": "/img/dashboard2.jpg" },
+    { "title": "Implementation", "image": "/img/Online-Complaint-Management.png" },
+    { "title": "Monitoring & Reporting", "image": "/img/6596cd6c691be.jpg" }
+  ],
+  "tools": [
+    { "icon": "BarChart2", "name": "SEMRush" },
+    { "icon": "Search", "name": "Ahrefs" },
+    { "icon": "LineChart", "name": "Google Console" },
+    { "icon": "Gauge", "name": "Moz" },
+    { "icon": "Settings2", "name": "Yoast" },
+    { "icon": "Eye", "name": "Screaming Frog" }
+  ],
+  "results": [
+    { "stat": "+250%", "label": "Organic Traffic Growth" },
+    { "stat": "#1", "label": "Ranked Keywords" },
+    { "stat": "+10k", "label": "Monthly Visitors" }
+  ],
+  "faqs": [
+    {
+      "q": "How long does SEO take?",
+      "a": "Usually 3-6 months to see noticeable improvements, depending on your site's age and competition."
+    },
+    {
+      "q": "What is included in SEO?",
+      "a": "On-page optimization, keyword research, link building, performance tracking, and regular reporting."
+    },
+    {
+      "q": "Do you offer local SEO?",
+      "a": "Yes, we help businesses rank on Google Maps and attract nearby customers."
+    },
+    {
+      "q": "Can you guarantee #1 rankings?",
+      "a": "No one can guarantee rankings, but we follow best practices that increase your chances significantly."
+    }
+  ]
+}
