@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Saadat Ali",
+        "position": "UI Design Maker React & Next-js Developer",
+        "desc": "Skilled in React, Next.js, Redux, and Context API integration.",
+        "image": "/img/me3.jpg",
+        "skills": [
+            "React",
+            "Next.js",
+            "UI/UX",
+            "Redux"
+        ]
+    },
+     {
+        "name": "Muhammad Raza",
+        "position": "Senior React & Next-js Developer",
+        "desc": "Skilled in React & Next.js, JavaScript, HTML, CSS, with API integration.",
+        "image": "/img/raza.jpg",
+        "skills": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "API"
+        ]
+    },
+    {
+        "name": "Ahsan Shahzad Khan",
+        "position": ".Net & Backend Developer",
+        "desc": ".NET expert focused on server-side logic and infrastructure.",
+        "image": "/img/ahsan-DHYrVaVD.jpeg",
+        "skills": [
+            ".NET",
+            "C#",
+            "SQL",
+            "Backend"
+        ]
+    },
+    {
+        "name": "Wafadar Hussain",
+        "position": "Backend Developer",
+        "desc": "Handles servers, databases, and API logic for web applications.",
+        "image": "/img/wafadar1.jpg",
+        "skills": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "API"
+        ]
+    },
+    {
+        "name": "Saadat Ali",
+        "position": "UI Design Maker React & Next-js Developer",
+        "desc": "Skilled in React, Next.js, Redux, and Context API integration.",
+        "image": "/img/me8.jpg",
+        "skills": [
+            "React",
+            "Next.js",
+            "UI/UX",
+            "Redux"
+        ]
+    },
+     {
+        "name": "Saadat Ali",
+        "position": "Senior React & Next-js Developer",
+        "desc": "Skilled in React & Next.js, JavaScript, HTML, CSS, with API integration.",
+        "image": "/img/me2.jpg",
+        "skills": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "API"
+        ]
+    }
+]

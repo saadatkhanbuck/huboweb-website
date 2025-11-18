@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/hero'
 import Team from '../team/page'
+import OverTeam from '../overteam/page'
 
 
 export default function About() {
@@ -12,7 +13,7 @@ export default function About() {
         imageSrc="/img/ecommerce-softwares.png"
       />
       <Team/>
-      {/* <OverTeam/> */}
+      <OverTeam/>
     </div>
   )
 }
