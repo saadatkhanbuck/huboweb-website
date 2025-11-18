@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import {
   Carousel,
   CarouselContent,
@@ -50,11 +49,10 @@ export default function Testimonials() {
                   <div className="flex flex-col md:flex-row items-start gap-6 max-w-2xl text-left">
                     <div className="flex flex-col items-center">
                       <div className="rounded-full border-4 border-white w-24 h-24 overflow-hidden">
-                        <Image
+                        {/* ✅ Use normal img tag for static export */}
+                        <img
                           src={testimonial.image}
                           alt={testimonial.name}
-                          width={96}
-                          height={96}
                           className="object-cover w-full h-full"
                         />
                       </div>
